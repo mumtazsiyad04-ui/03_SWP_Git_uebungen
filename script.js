@@ -17,3 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
  document.body.appendChild(button);
 });
 // Die JavaScript-Funktionalität wird im Branch feature-javascript ergänzt.
+
+// FEHLER: nur für die Reset-Übung
+function brokenFunction() {
+    console.log("Dies ist ein Fehler);
+    undefinedVariable.someMethod();
+}
+
+brokenFunction();
